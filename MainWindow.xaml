@@ -1,0 +1,39 @@
+﻿<Window x:Class="WpfIntro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Generador de Personajes"
+        Height="700"
+        Width="450">
+
+    <ScrollViewer>
+        <StackPanel Margin="20">
+
+            <TextBlock Text="Nombre del personaje:"/>
+            <TextBox x:Name="txtNombre"/>
+
+            <TextBlock Text="Clase:"/>
+
+            <ComboBox x:Name="cmbClase">
+                <ComboBoxItem Content="Guerrero"/>
+                <ComboBoxItem Content="Mago"/>
+                <ComboBoxItem Content="Arquero"/>
+            </ComboBox>
+
+            <CheckBox x:Name="chkEspada"
+                      Content="Espada"/>
+
+            <CheckBox x:Name="chkMagia"
+                      Content="Magia"/>
+
+            <Button Content="Generar"
+                    Click="BtnGenerar_Click"/>
+
+            <Image x:Name="imgPersonaje"
+                   Width="200"
+                   Height="200"/>
+
+            <TextBlock x:Name="txtResultado"/>
+
+        </StackPanel>
+    </ScrollViewer>
+</Window>
