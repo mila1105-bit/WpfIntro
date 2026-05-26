@@ -11,6 +11,7 @@
 <ItemGroup>
     <Resource Include="Images\evil mosaico.png" />
     <Resource Include="Images\mosaico.jpg" />
+    <Resource Include="Images\todavía más evil mosaico.png" />
   </ItemGroup>
 
 </Project>

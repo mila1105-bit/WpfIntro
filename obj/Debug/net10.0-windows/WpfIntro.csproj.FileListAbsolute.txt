@@ -17,3 +17,4 @@ C:\Users\milsm\Downloads\WpfIntro\obj\Debug\net10.0-windows\refint\WpfIntro.dll
 C:\Users\milsm\Downloads\WpfIntro\obj\Debug\net10.0-windows\WpfIntro.pdb
 C:\Users\milsm\Downloads\WpfIntro\obj\Debug\net10.0-windows\WpfIntro.genruntimeconfig.cache
 C:\Users\milsm\Downloads\WpfIntro\obj\Debug\net10.0-windows\ref\WpfIntro.dll
+C:\Users\milsm\Downloads\WpfIntro\obj\Debug\net10.0-windows\WpfIntro.sourcelink.json

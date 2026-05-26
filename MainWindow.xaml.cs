@@ -48,6 +48,13 @@ public partial class MainWindow : Window
                         new Uri("Images/mosaico.jpg",
                         UriKind.Relative));
                 break;
+
+             case "Arquero":
+                imgPersonaje.Source =
+                    new BitmapImage(
+                        new Uri("Images/todavía más evil mosaico.png",
+                        UriKind.Relative));
+                break;
         }
 
         txtResultado.Text =
