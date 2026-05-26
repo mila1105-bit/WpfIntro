@@ -24,9 +24,19 @@
 
             <CheckBox x:Name="chkMagia"
                       Content="Magia"/>
+            
+             <CheckBox x:Name="chkFuerza"
+                      Content="Fuerza"/>
 
             <Button Content="Generar"
-                    Click="BtnGenerar_Click"/>
+                    Click="BtnGenerar_Click"
+                    Background="#FF5733"
+                    Foreground="#FFFFFF"/>
+            
+             <Button Content="Limpiar"
+                    Click="BtnLimpiar_Click"
+                    Background="#0000FF"
+                    Foreground="#FFFFFF"/>
 
             <Image x:Name="imgPersonaje"
                    Width="200"

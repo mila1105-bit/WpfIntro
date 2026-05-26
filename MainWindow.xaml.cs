@@ -33,6 +33,9 @@ public partial class MainWindow : Window
         if (chkMagia.IsChecked == true)
             habilidades.AppendLine("- Magia");
 
+         if (chkFuerza.IsChecked == true)
+            habilidades.AppendLine("- Fuerza");
+
         switch (clase)
         {
             case "Guerrero":
@@ -61,5 +64,18 @@ public partial class MainWindow : Window
             $"Nombre: {nombre}\n" +
             $"Clase: {clase}\n" +
             $"Habilidades:\n{habilidades}";
+    }
+
+    private void BtnLimpiar_Click(object sender, RoutedEventArgs e)
+    {
+         txtNombre.Clear();
+         txtResultado.Text= "";
+        chkEspada.IsChecked= false;
+        chkMagia.IsChecked= false;
+        chkFuerza.IsChecked= false;
+        imgPersonaje.Source= null;
+        cmbClase.SelectedItem= null;
+
+         
     }
 }
